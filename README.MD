@@ -46,11 +46,11 @@ docker-compose up --build -d
 
 docker-compose up --build -d
 
-## Kafka 토픽 생성
+# 토픽 생성
 
 docker exec -it kafkatest-kafka-1 bash
 
-# 토픽 생성
+컨테이너로 들어간후 !!
 
 /opt/bitnami/kafka/bin/kafka-topics.sh --create \
  --topic user-topic \
