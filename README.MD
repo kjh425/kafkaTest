@@ -1,6 +1,11 @@
-# Kafka Practice Project (Spring Boot + Docker Compose) 카프카 실습예제입니다.
+# (Spring Boot + Docker Compose) 카프카 실습예제입니다.
 
 Spring Boot 기반 Kafka 실습 예제입니다. Kafka를 통해 메시지를 발행하고 소비하는 구조를 실제로 확인할 수 있도록 구성했습니다.
+
+## 사전작업
+
+1. wsl 설치 및 docker 준비
+2. wsl에 java 17설치
 
 ## 📁 프로젝트 구성
 
